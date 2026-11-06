@@ -1,0 +1,6 @@
+services:
+  house-price-api:
+    build: .
+    container_name: house-price-compose
+    ports:
+      - "8000:8000"
